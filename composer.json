@@ -1,0 +1,40 @@
+{
+    "name": "Learning/HelloWorld",
+    "description": "This is Test Module to learn",
+    "require": {
+        "php": "~5.6.5|7.0.2|7.0.4|~7.0.6"
+    },
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "authors": [
+        {
+            "name": "Bojjaiah",
+            "email": "bojjaiah.t@gmail.com",
+            "homepage": ""
+        },
+        {
+            "name": "VLC LLC"
+        }
+    ],
+    "support": {
+        "documentation": ""
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": ""
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Learning\\HelloWorld\\": ""
+
+        }
+    }
+}
